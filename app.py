@@ -9,7 +9,7 @@ book_names = pickle.load(open('artifacts/book_names.pkl','rb'))
 final_rating = pickle.load(open('artifacts/final_rating.pkl','rb'))
 book_pivot = pickle.load(open('artifacts/book_pivot.pkl','rb'))
 
-
+# New CHnages
 def fetch_poster(suggestion):
     book_name = []
     ids_index = []
